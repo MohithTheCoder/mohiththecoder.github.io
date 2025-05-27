@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant Attacker
     participant BotNet
@@ -16,6 +17,7 @@ sequenceDiagram
     Firewall-->>BotNet: Blocks IP addresses
     Firewall-->>WebServer: Activates rate limiting
     WebServer-->>Firewall: Returns to normal use
+```
 
 ## Participants
 
